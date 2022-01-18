@@ -1,0 +1,5 @@
+Public IPv4 DNS
+ec2-52-22-204-140.compute-1.amazonaws.com
+
+Push Command
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 670770597001.dkr.ecr.us-east-1.amazonaws.com
